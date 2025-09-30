@@ -24,8 +24,8 @@ class Config:
         self.PREFIX = "[POLL]"
         
         self.GOOGLE_API_KEYS = [
-            "AIzaSyCrhbN2hWfiXUfeEYiASumL_H0hUcz4aI8",
-            "AIzaSyCukxeJuSgs02-I-r7kp6_aYLkdqqfv4h4"
+            "AIzaSyAWIF6faUC8NAwAUxEzASaOm4SeCK4s3co",
+            "AIzaSyC31vsa__Dee0W2rqMRMW0AIe-jRuXgOgk"
         ]
         self.api_key_index = 0
         
@@ -45,7 +45,7 @@ config = Config()
 # ========= Bot Setup =========
 API_ID = 26400657
 API_HASH = "c20ddfa6c36b3fb15cabc735c180f738"
-BOT_TOKEN = "8071512279:AAFJyCv1J33Z2lh_y_DQ2fuaF8Fzt8O1N7I"
+BOT_TOKEN = "7964561217:AAHTD-gcxmDWSCWapEYiYXzSFjJPX68v2Vo"
 MODEL_NAME = "gemini-2.5-flash"
 
 app = Client("mcq_quiz_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
